@@ -11,7 +11,7 @@ import pandas as pd
 from PIL import Image
 
 st.set_page_config(page_title = "渝管家智能健康管理系统",layout="wide")
-image = Image.open('C:\\Myfiles\\yuguanjia\\yu\\image.png')
+image = Image.open('image.png')
 
 
 
