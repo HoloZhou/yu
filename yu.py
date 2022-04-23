@@ -9,6 +9,8 @@ import streamlit as st
 import numpy as np 
 import pandas as pd 
 from PIL import Image
+import pip
+pip.main(["install", "matplotlib"])
 
 st.set_page_config(page_title = "渝管家智能健康管理系统",layout="wide")
 image = Image.open('image.png')
