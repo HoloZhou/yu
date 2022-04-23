@@ -42,14 +42,7 @@ with col1:
     columns=['心脏病风险', '卒中风险'],
     )
     
-    st.line_chart(line_data,use_container_width=True,height=240)
-    
-    import matplotlib.pyplot as plt
-    import matplotlib as mpl
-    
-    mpl.rcParams["font.sans-serif"]=["SimHei"]
-    mpl.rcParams["axes.unicode_minus"]=False
-    
+    st.line_chart(line_data,use_container_width=True,height=240)    
     st.subheader('癌前病变风险评估') 
     
     x = ('黏膜白斑','腺瘤性肠息肉','慢性萎缩性胃炎','乳腺囊性增生','肝硬化')
